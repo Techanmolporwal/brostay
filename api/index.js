@@ -25,7 +25,7 @@ app.use(cors({
     origin:'http://localhost:5173',
 }));
 
-mongoose.connect("mongodb+srv://brostay:9540papa@cluster0.dfqrs8o.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect('mongodb+srv://brostay:9540papa@cluster0.dfqrs8o.mongodb.net/?retryWrites=true&w=majority')
 
 app.get('/test',(req,res)=>{
    res.json('text ok')
