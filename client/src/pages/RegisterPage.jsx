@@ -39,7 +39,7 @@ const RegisterPage = () => {
                     type='password' placeholder='Enter Password'></input>
                     <button  className='primary'>Register</button>
                     <div className='text-center py-2 text-gray-500'>
-                        Already a member? <Link className='underline text-black' to={'./login'}>Login Now</Link>
+                        Already a member? <Link className='underline text-black' to={'/login'}>Login Now</Link>
                     </div>
                 </form>
             </div>
