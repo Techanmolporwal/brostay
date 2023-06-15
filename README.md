@@ -16,3 +16,14 @@ https://github.com/Techanmolporwal/brostay/assets/89104678/29fc3d61-3ca8-4a1d-9f
 * book places with number of guests and flexiable checkin & checkout time.
 * check all images and nearby places of stay.
 * print booked recipt.
+
+# commands
+-> npm install 
+
+* terminal 1
+-> cd client
+-> npm run start
+
+* terminal 2
+-> cd api
+-> npm run start
